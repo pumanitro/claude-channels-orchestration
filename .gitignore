@@ -1,6 +1,7 @@
 node_modules/
 logs/
 *.log
+.idea/
 sessions/*/workspace/*
 !sessions/*/workspace/.gitkeep
 
