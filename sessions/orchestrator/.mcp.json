@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bridge": {
+      "command": "npx",
+      "args": ["tsx", "../../src/channel-adapter.ts"],
+      "env": {
+        "SESSION_ROLE": "orchestrator",
+        "HUB_URL": "http://127.0.0.1:4577"
+      }
+    }
+  }
+}

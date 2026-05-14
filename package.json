@@ -1,0 +1,19 @@
+{
+  "name": "claude-channels-orchestration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "One Claude Code orchestrator coordinating two workers over a custom channels bridge.",
+  "scripts": {
+    "hub": "tsx src/hub.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.22.0",
+    "typescript": "^5.7.0"
+  }
+}

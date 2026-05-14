@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__bridge__send",
+      "Read"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}

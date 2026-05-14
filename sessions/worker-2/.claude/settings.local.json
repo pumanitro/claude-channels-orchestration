@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__bridge__send",
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}

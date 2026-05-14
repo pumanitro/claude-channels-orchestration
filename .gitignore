@@ -1,0 +1,11 @@
+node_modules/
+logs/
+*.log
+sessions/*/workspace/*
+!sessions/*/workspace/.gitkeep
+
+# The repo-root .claude/settings.local.json is personal — the global gitignore
+# (**/.claude/settings.local.json) already excludes it, and all others.
+# But the per-session settings.local.json files ARE required sample content
+# (they pre-approve the worker tools), so un-ignore those:
+!sessions/*/.claude/settings.local.json
