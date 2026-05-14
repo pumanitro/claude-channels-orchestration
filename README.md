@@ -1,8 +1,12 @@
 # claude-channels-orchestration
 
+![Verified end-to-end run: hub routing messages between an orchestrator and two worker Claude Code sessions](./docs/verified-run.png)
+
 > ✅ **Verified working end-to-end** (2026-05-14) — orchestrator → 2 workers →
-> orchestrator, every message routed over the bridge. See
-> **[VERIFIED-RUN.md](./VERIFIED-RUN.md)** for the run transcript and the hub log.
+> orchestrator, every message routed over the bridge. The screenshot above is a
+> real run: hub log (top-left), orchestrator synthesizing the result
+> (bottom-left), and the two workers (right). See
+> **[VERIFIED-RUN.md](./VERIFIED-RUN.md)** for the transcript and the hub log.
 
 One Claude Code session (the **orchestrator**) coordinating two other Claude Code
 sessions (**worker-1**, **worker-2**), connected only by a custom **channels
